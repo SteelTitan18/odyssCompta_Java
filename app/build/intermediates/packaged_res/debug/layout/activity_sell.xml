@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellActivity">
+
+    <TextView
+        android:id="@+id/croisSimp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Croissant simple"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:width="200dp"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/croisSimp_pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_toRightOf="@id/croisSimp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:id="@+id/croisChoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Croissant au chocolat"
+        android:layout_below="@id/croisSimp"
+        android:layout_marginLeft="20dp"
+        android:width="200dp"
+        android:textSize="18dp"
+        android:layout_marginTop="33dp"
+        />
+
+    <EditText
+        android:id="@+id/croisChoc_pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_toRightOf="@id/croisChoc"
+        android:layout_below="@id/croisSimp_pr"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/feuilSimp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feuilletés simples"
+        android:layout_below="@id/croisChoc"
+        android:layout_marginLeft="20dp"
+        android:width="200dp"
+        android:textSize="18dp"
+        android:layout_marginTop="33dp"
+        />
+
+    <EditText
+        android:id="@+id/feuilSimp_pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_toRightOf="@id/feuilSimp"
+        android:layout_below="@id/croisChoc_pr"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/feuilBig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grands feuilletés"
+        android:layout_below="@id/feuilSimp"
+        android:layout_marginLeft="20dp"
+        android:width="200dp"
+        android:textSize="18dp"
+        android:layout_marginTop="33dp"
+        />
+
+    <EditText
+        android:id="@+id/feuilBig_pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_toRightOf="@id/feuilBig"
+        android:layout_below="@id/feuilSimp_pr"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/cak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cakes"
+        android:layout_below="@id/feuilBig"
+        android:layout_marginLeft="20dp"
+        android:width="200dp"
+        android:textSize="18dp"
+        android:layout_marginTop="33dp"
+        />
+
+    <EditText
+        android:id="@+id/cak_pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_toRightOf="@id/cak"
+        android:layout_below="@id/feuilBig_pr"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="220dp"
+        android:text="Suivant"
+        />
+
+</RelativeLayout>

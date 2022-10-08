@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SummaryActivity">
+
+    <TextView
+        android:id="@+id/ventes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="70dp"
+        android:text="Total des ventes : "
+        android:width="150dp"
+        />
+
+    <TextView
+        android:id="@+id/total_ventes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/ventes"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/achats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ventes"
+        android:layout_marginLeft="70dp"
+        android:text="Total des achats : "
+        android:layout_marginTop="16dp"
+        android:width="150dp"
+        />
+
+    <TextView
+        android:id="@+id/total_achats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_ventes"
+        android:layout_toRightOf="@id/achats"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/recette"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achats"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="16dp"
+        android:text="Recette : "
+        android:width="150dp"
+        />
+
+    <TextView
+        android:id="@+id/montant_recette"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/recette"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/total_achats"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Ok"
+        android:width="100dp"
+        />
+
+</RelativeLayout>

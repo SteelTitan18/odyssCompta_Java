@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+
+    <Button
+        android:id="@+id/vente_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Ventes"
+        android:width="150dp"
+        />
+
+    <Button
+        android:id="@+id/depen_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vente_but"
+        android:layout_centerInParent="true"
+        android:text="Dépenses"
+        android:layout_margin="16dp"
+        android:width="150dp"
+        />
+
+    <Button
+        android:id="@+id/stat_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/depen_but"
+        android:layout_centerInParent="true"
+        android:text="Statistiques"
+        android:layout_margin="16dp"
+        android:width="150dp"
+        />
+
+    <Button
+        android:id="@+id/caiss_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stat_but"
+        android:layout_centerInParent="true"
+        android:text="Caisse"
+        android:layout_margin="16dp"
+        android:width="150dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyActivity">
+
+    <EditText
+        android:id="@+id/articlName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nom de l'article"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        />
+
+    <EditText
+        android:id="@+id/articlPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Prix de l'article"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/articlName"
+        android:layout_margin="16dp"
+        />
+
+    <Button
+        android:id="@+id/next_articl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="240dp"
+        android:text="Suivant"
+        android:width="130dp"
+        />
+
+    <Button
+        android:id="@+id/prev_articl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="20dp"
+        android:text="Précédent"
+        android:width="130dp"
+        />
+
+    <Button
+        android:id="@+id/fin_articl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"
+        android:text="Terminer"
+        android:width="130dp"
+        />
+
+</RelativeLayout>
